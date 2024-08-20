@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // yaha humne do varaible banai hain 
+        var startYear = 2000;
+        var endYear =   2024;
+      
+// yahan humne for loop pr aik var run kia jisme mai humne aik var banakr year dekr usse brbr krdiya startYear ke 
+        for(var year = startYear; year <= endYear; year++){
+
+        var isLeapYear = (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+// yahan humne iska result print karadiya
+        document.write(`${year} is ${isLeapYear ? 'a leap year' : 'not a leap year'}  <br>`);
+
+        };
+
+        
+// even/odd program
+var start = 1;
+const end = 20;
+
+
+for (let num = start; num <= end; num++) {
+    // Use ternary operator to determine if the number is even or odd
+    const result = num % 2 === 0 ? 'even' : 'odd';
+    
+
+    console.log(`${num} is ${result}`);
+};
+    </script>
+</body>
+</html>

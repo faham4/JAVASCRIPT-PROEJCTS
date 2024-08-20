@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mark Sheet in Javascript</title>
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<script>
+  
+  var name = "ahmed";
+  var roll_no = 12345;
+  var class_name = "12th";
+  var english = 80;
+  var urdu = 75;
+  var maths = 90;   
+  var computer = 85;
+  var obtain_marks = 330;
+  var total_marks = 400;
+  var percentage = (obtain_marks / total_marks) * 100;
+  var grade = "A"; 
+</script>
+<html>
+
+<center><h1>Marksheet in Javascript</h1></center>
+
+<table border="1">
+  <tr>
+    <th>Student Name</th>
+    <th>Roll No</th>
+    <th>Class</th>
+    <th>English</th>
+    <th>Urdu</th>
+    <th>Maths</th>
+    <th>Computer</th>
+    <th>Obtain Marks</th>
+    <th>Total Marks</th>
+    <th>Percentage</th>
+    <th>Grade</th>
+  </tr>
+<tr>
+    <td><script>document.write(name);</script></td>
+    <td><script>document.write(roll_no);</script></td>
+    <td><script>document.write(class_name);</script></td>
+    <td><script>document.write(english);</script></td>
+    <td><script>document.write(urdu);</script></td>
+    <td><script>document.write(maths);</script></td>
+    <td><script>document.write(computer);</script></td>
+    <td><script>document.write(obtain_marks);</script></td>
+    <td><script>document.write(total_marks);</script></td>
+    <td><script>document.write(percentage);</script></td>
+    <td><script>document.write(grade);</script></td>
+</tr>
+</table>
+
+</body>
+
+
+</html>

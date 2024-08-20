@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ff7171;
+         
+        }
+        .signup-form {
+            background: #fff;
+            width: 300px;
+            height: 350px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+       
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+     input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+
+}
+        button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+         button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-form">
+        <h2>Login Form</h2>
+        <form id="signupForm">
+                Username:
+                <input type="text" id="username" name="username" placeholder="username" required>
+                <br><br>
+                Email:
+                <input type="email" id="email" name="email" placeholder="email" required>
+                <br><br>
+                Password:
+                <input type="password" id="password" name="password" placeholder="password" required>
+               
+                <br><br>
+                <button type="submit">Signup</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
